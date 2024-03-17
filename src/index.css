@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2733;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #717d94;
+}
+
+a {
+  cursor: pointer;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes pointer {
+  0% {
+    transform: translateX(7%);
+  }
+  5% {
+    transform: translate(-10%, -7%);
+  }
+  20% {
+    transform: translateX(-10%) scale(0.8);
+  }
+  30% {
+    transform: translateX(-10%) scale(1);
+  }
+  40% {
+    transform: translate(520%, -180%);
+  }
+  45% {
+    transform: translate(520%, -180%) scale(0.8);
+  }
+  50% {
+    transform: translate(520%, -180%) scale(1);
+  }
+  60% {
+    transform: translate(-130%, -590%);
+  }
+  65% {
+    transform: translate(-130%, -590%) scale(0.8);
+  }
+  72% {
+    transform: translate(-130%, -590%) scale(1);
+  }
+  84% {
+    transform: translate(-14%, -10%);
+  }
+  93% {
+    transform: translate(-10%, -7%);
+  }
+  100% {
+    transform: translateX(7%);
+  }
+}
