@@ -5,7 +5,7 @@ import { Header } from "./components/Header";
 import { Profile } from "./components/Profile";
 // import { Projects } from "./components/Projects";
 import { Section } from "./components/Section";
-import { Tech } from "./components/Tech";
+// import { Tech } from "./components/Tech";
 
 export function App() {
   return (
@@ -14,7 +14,7 @@ export function App() {
         <Header />
         <Profile />
         <Section />
-        <Tech />
+        {/* <Tech /> */}
         {/* <Projects /> */}
         <About />
         <Contact />

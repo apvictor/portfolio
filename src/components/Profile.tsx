@@ -73,6 +73,7 @@ export function Profile() {
             // width: 319,
             // height: 400,
             backgroundImage: `url(${perfil})`,
+            backgroundPosition: "top",
           }}
         ></div>
         <div
